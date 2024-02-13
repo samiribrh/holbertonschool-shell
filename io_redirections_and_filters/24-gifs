@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name "*.gif" -type f -depth | cut -d "." -f 1 | sort --ignore-case
+find -depth -name "*.gif" -type f | cut -d "." -f 1 | sort --ignore-case
