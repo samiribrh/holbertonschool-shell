@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v '^$' | paste -d ',', - - | cut -d ',' -f1 
+grep . | paste -d ',', - - | cut -d ',' -f1 
